@@ -1,23 +1,32 @@
-<mxfile host="app.diagrams.net" modified="2021-11-27T08:00:27.276Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36 OPR/81.0.4196.52" etag="YkLMF87rcE9SSTMJruPk" version="15.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-27T08:38:26.398Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36 OPR/81.0.4196.52" etag="Ebb9YDIcgjFatkmvGEr7" version="15.8.6" type="github">
   <diagram id="RJO8PuPAGNzROMasVjRf" name="Page-1">
     <mxGraphModel dx="997" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="ltvV7gkaToOBS2ahcZOb-1" value="Bắt đầu" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="410" y="150" width="120" height="60" as="geometry" />
+          <mxGeometry x="400" y="140" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ltvV7gkaToOBS2ahcZOb-2" value="Cộng 2 số mũ và trừ 127" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="450" y="250" width="120" height="60" as="geometry" />
+          <mxGeometry x="400" y="240" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ltvV7gkaToOBS2ahcZOb-3" value="Nhân 2 phần định trị" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="200" y="280" width="120" height="60" as="geometry" />
+          <mxGeometry x="400" y="340" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ltvV7gkaToOBS2ahcZOb-4" value="Chuẩn hóa kết quả&lt;br&gt;và kiểm tra overflow, underflow" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="460" y="370" width="120" height="60" as="geometry" />
+        <mxCell id="ltvV7gkaToOBS2ahcZOb-4" value="Chuẩn hóa kết quả&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="400" y="440" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ltvV7gkaToOBS2ahcZOb-5" value="Kiểm tra trường hợp đặc biệt" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="440" y="510" width="120" height="60" as="geometry" />
+        <mxCell id="YzzIFXypt7FN9Ieh2y_I-1" value="Kiểm tra underflow và overflow" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="520" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YzzIFXypt7FN9Ieh2y_I-2" value="Bật cờ underflow hoặc overflow tương ứng" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="530" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YzzIFXypt7FN9Ieh2y_I-3" value="&lt;span&gt;Kiểm tra trường hợp đặc biệt&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="361.88" y="620" width="196.25" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YzzIFXypt7FN9Ieh2y_I-4" value="Xuất kết quả theo trường hợp đặc biệt tương ứng" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="630" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
